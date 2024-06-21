@@ -6,7 +6,7 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 //populating both the dropdowns
-//addign all the currency code as options in the dropdown lists respectively
+//adding all the currency codes as options in the dropdown lists(from and to)
 for (let select of dropdowns){
     for( let currCode in countryList){
         let newOption = document.createElement("option");
@@ -51,19 +51,18 @@ btn.addEventListener("click", async (event) => {
     else{
         convertCurrency(amtValue);
     }
-    // console.log(fromCurr, toCurr);
-    // const URL = `${Base_url}/${fromCurr}/${toCurr}.json`;
-    // let response = await fetch(URL);
-    // let data = await response.json;
-    // let rate = data[toCurr.value.toLowerCase()];
-    // console.log(rate);
-    // let final = amount * rate;
-    // msg.innerText = `${amtValue} ${fromCurr.value} = ${final} ${toCurr.value}`
+
 });
+
+
+
+
 //taking the amount entered by the user as the input
 //list of all the countries in the select option
 //changing the flag alongwith the country's currency
 //exchanging and printing the result on submittng the button
+
+
 
 
 //converting the currency
