@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(247, 238, 219);
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 125, 125);
+    min-height: 100vh;
+    animation: fade-in 1s ease-in-out 0s 1;
+}
+#title{
+    text-align: center;
+    /* padding: 10px;
+    border: 2px solid white; */
+    /* margin: 20px;; */
+}
+
+.container{
+    background-color: rgb(46, 49, 50);
+    padding: 30px;
+    border-radius: 8px;
+    
+}
+/* .amount{
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}  */
+
+form{
+    margin: 2rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+}
+
+form,select,button,input{
+    width : 100%;
+    border : none;
+    outline: none;
+    border-radius: 0.4rem;
+    text-align: left;
+
+}
+
+form input{
+    border: 1px solid rgb(212, 199, 199);
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+    background-color: black;
+    border : none;
+
+}
+
+.dropdown{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.75rem;
+    background-color: rgba(195, 139, 139, 0.91);
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.select-container select{
+    background-color: black;
+}
+
+.from{
+    /* border: 1px solid black; */
+    padding: 0.5rem;
+    text-align: center;
+    font-weight:800;
+    color: black;
+}
+
+.from p{
+    color: black;
+}
+
+.to{
+    /* border: 1px solid black; */
+    padding: 0.5rem;
+    text-align: center;
+    font-weight:800;
+    color: black;
+}
+
+.to p{
+    color: black;
+}
+
+.select-container select{
+    border: 2px solid rgb(152, 150, 150);
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+i{
+    /* border: 1px solid black; */
+    font-size: 25px;
+    /* padding: 0.5rem; */
+    margin: 0.5rem;
+    color: black;
+}
+
+#submit{
+    padding: 0.9rem;
+    text-align: center;
+    box-shadow: 4px 3px 1px rgb(184, 147, 220);
+    background-color: black;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: transform 0.3s ease;
+    }
+
+    #submit:hover{
+        transform: scale(1.0);
+    }
+
+
+.msg{
+    text-align: center;
+    font-size : 2rem;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 100;
+    }
+}
