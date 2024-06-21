@@ -1,5 +1,4 @@
-
-----------------------------------------------------------------------------------Currency Converter--------------------------------------------------------------------------------------------
+                                                                               Currency Converter
 
 
 Welcome to the Currency Converter project! This web application allows users to convert amounts from one currency to another using real-time exchange rates fetched from an external API.
